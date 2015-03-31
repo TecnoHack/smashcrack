@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Smashcrack</title>
+<style type="text/css">
+.div { /*Este estilo se aplica a la etiqueta div */
+	height: 100%;
+	width: 100%;
+	margin-right: 50px;
+	margin-left: 50px;
+	
+}
+.boton { /*Este estilo está aplicado a los botones "Identify" y "Crack"*/
+	background-color: #2eec71;
+	border:0px;
+	color:#ecf0f1
+}
+.BotonHash{ /*Estilo aplicado al botón "Hash Creator"*/
+	background-color: #e74c3c;
+	border:0px;
+	color:#ecf0f1;
+	width: 100%;
+}
+.BotonCracking{/*Estilo aplicado al botón "Cracking for hours*/
+	background-color: #9b59b6;
+	border:0px;
+	color:#ecf0f1;
+	width: 100%;
+}
+input { /*Este estilo está aplicado a los botones "Identify" y "Crack"*/
+	width: 100%;
+}
+select { /*Estilo aplicado a la lista desplegable*/
+	width: 100%;
+}
+.WordsDBs {/*Estilo aplicado al botón Words in DBs*/
+	background-color: transparent;
+	color:#ecf0f1;
+	border:0px;
+	text-align: center;
+	width: 75%;
+}
+
+#SmashCrack { /*En este punto, se determina el espacio entre letras del título*/
+	letter-spacing: 15pt;
+}
+</style>
+</head>
+
+<body bgcolor="#666666">
+<div id="SmashCrack"> <!--Este es el primer div, unicamente incluye el título -->
+  <table width="100%" border="0">
+    <tr>
+      <td bgcolor="#2c3e50"><h1 align="center" id="SmashCrack">SmashCrack</h1></td>
+    </tr>
+  </table>
+</div>
+<p>&nbsp;</p>
+<div id="Cuerpo" class="div"> <!--En este div, está incluido el "cuerpo" de la web, donde se tiene que ingresar el hash, el cracking for hours, y el WordsinDBs, entre otras cosas -->
+  <table width="896" height="28" border="0">
+    <tr>
+      <td><input type="text" name="GiveMeYourHash2" id="GiveMeYourHash2" value="Give me your hash"/></td>
+      <td width="124">&nbsp;</td>
+      <td width="349"><label for="Encryption2"></label>
+        <select  size="1" name="Encryption" id="Encriptyon">
+          <option selected="selected">md5</option>
+          <option>md4</option>
+          <option>sha1</option>
+          <option>sha224</option>
+          <option>sha256</option>
+          <option>sha384</option>
+          <option>sha512</option>
+          <option>ntlm</option>
+          <option>lm</option>
+        </select></td>
+      <td width="336"><input type="submit" name="crack" id="crack" value="Crack" class="boton"/></td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td><input type="text" name="GiveMeYourHash" id="GiveMeYourHash" value="Give me your hash"/></td>
+      <td>&nbsp;</td>
+      <td><input type="submit" name="identify" id="identify" value="Identify" class="boton"/></td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+    <tr>
+      <td width="252" bgcolor="#666666"><input type="submit" name="HasCreator" id="HasCreator" value="Hash creator" class="BotonHash"/></td>
+      <td>&nbsp;</td>
+      <td colspan="2"><input name="Cracking" type="submit" class="BotonCracking" id="Cracking" value="Cracking for hours" /></td>
+    </tr>
+  </table>
+<h3>
+  <input type="submit" name="Words_Db's" class="WordsDBs" id="WordsDb's" value="Words in our DB's" />
+</h3>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp; </p>
+<div id="Cuerpo2" class="div"><!--En este div, se incluye el Blog entries, y How it works -->
+  <table width="783" height="236" border="1">
+    <tr>
+      <td width="383">Blog entries</td>
+      <td width="384">How it works</td>
+    </tr>
+    <tr>
+      <td><table width="384" height="130" border="1">
+        <tr>
+          <td>Aquí iría texto</td>
+          <td>Aquí el vídeo</td>
+        </tr>
+      </table></td>
+      <td>Vídeo</td>
+    </tr>
+  </table>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<div id="Cuerpo3" class="div">
+  <div><!--Footer -->
+    <table width="889" border="1">
+      <tr>
+        <td width="382">Quienes somos?</td>
+        <td width="382" rowspan="4">ALGO IMPROVISADO</td>
+      </tr>
+      <tr>
+        <td>Contacta con nosotros</td>
+      </tr>
+      <tr>
+        <td>Discalimer</td>
+      </tr>
+      <tr>
+        <td>&nbsp;</td>
+      </tr>
+      <tr>
+        <td height="45">Twitter  Github Facebook</td>
+        <td>Wet spash</td>
+      </tr>
+    </table>
+  </div>
+</div>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</body>
+</html>
